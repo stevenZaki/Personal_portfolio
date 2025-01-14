@@ -4,7 +4,25 @@
 
 }
 
-
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    padding: 7px 0px;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    
+    color: #fff;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    color: #fff;
+    
+    
+}
 .header{
     background-image: url(./fde5dfb8-1127-4031-88a1-c6c708189ecd.jfif);
     background-size: 100% 100%;
@@ -27,4 +45,13 @@
     align-items: center;
     justify-content: center;
     
+}
+
+.text-L{
+    font-size: 24px;
+}
+
+.text-XL{
+    font-size: 70px;
+    text-transform: uppercase;
 }
