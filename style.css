@@ -3,7 +3,7 @@
     padding: 0;
 
 }
-
+/* Start nav bar */
 .navBar{
     display: flex;
     justify-content: space-around;
@@ -12,7 +12,7 @@
     position: fixed;
     right: 0;
     left: 0;
-    
+    background-color: rgba(0, 0, 0,0.9);
     color: #fff;
 }
 ul{
@@ -23,6 +23,8 @@ ul{
     
     
 }
+/* End nav bar */
+/* Start main page */
 .header{
     background-image: url(./fde5dfb8-1127-4031-88a1-c6c708189ecd.jfif);
     background-size: 100% 100%;
@@ -55,3 +57,72 @@ ul{
     font-size: 70px;
     text-transform: uppercase;
 }
+
+/* End main page */
+
+
+/* Start Hello */
+
+.Hello{
+    display: flex;
+    width: 1170PX;
+    height: 440PX;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap:100px;
+    padding-left: 150px;
+    justify-content: space-around;
+}
+.Hello img{
+    width: 360px;
+    height: 440px;
+
+}
+
+.content h2{ 
+    padding-bottom: 25px;
+
+}
+
+.content p{ 
+    padding-bottom: 50px;
+    width: 580px;
+    height: 100px;
+
+}
+
+.personal-info{
+    display: flex;
+    left: 0;
+    gap: 100px;
+    padding-top: 25px;
+}
+
+.personal-info span{
+    font-weight: bold;
+}
+
+.ul1 {
+    flex-direction: column;
+    color: black;
+}
+.ul2{
+    flex-direction: column;
+    color: black;
+}
+
+.btn{
+
+    padding-top: 35px;
+}
+.btn button{
+    align-content: flex-end;
+    background: #ff305b none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 24px;
+
+}
+/* End Hello */
