@@ -73,9 +73,21 @@ ul{
     padding-left: 150px;
     justify-content: space-around;
 }
+
+.box{
+    width: 360px;
+    height: 440px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #555555;
+}
+
+
 .Hello img{
     width: 360px;
     height: 440px;
+    padding-top: 15px;
+    padding-left: 15px;
 
 }
 
@@ -126,3 +138,141 @@ ul{
 
 }
 /* End Hello */
+
+/* Start Our services */
+
+.services{
+    width: auto;
+    height: 390px;
+    background-color: #f1f1f1;
+    padding-top: 100px;
+    padding-bottom: 55px;
+}
+
+.services h2{
+    color: #555555;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+}
+.services h2::before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 70%;
+    left: 47%;
+}
+
+.services h2::after{
+    content: "";
+    width: 220px;
+    height: 2px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 80%;
+    right: 43%;
+}
+.services-info{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left:15px;
+    padding-right: 15px;
+}
+.example{
+    width: 255px;
+    height: 175px;
+    /* background-color: white; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.example svg{
+    color: #ff305b;
+    margin-bottom: 20px;
+}
+
+.example h3{
+padding-bottom: 30px;
+}
+
+/* End Our services */
+
+/* Start Portfolio */
+
+.portfolio{
+    width: auto;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 55px;
+}
+
+.portfolio h2{
+    color: #555555;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+}
+.portfolio h2::before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 70%;
+    left: 47%;
+}
+
+.portfolio h2::after{
+    content: "";
+    width: 220px;
+    height: 2px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 80%;
+    right: 43%;
+}
+
+.hints{
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    height: 35px;
+    gap: 50px;
+    font-size: larger;
+    width: 500px; 
+    margin: 0 auto;
+    
+}
+
+.parent{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;    
+}
+    
+
+.photos div{
+    width: 360px;
+    height: 300px;
+    background-color: #555555;
+}
+/* End Portfolio */
