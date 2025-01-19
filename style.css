@@ -270,9 +270,9 @@ padding-bottom: 30px;
 }
     
 
-.photos div{
+.photos img{
     width: 360px;
     height: 300px;
-    background-color: #555555;
+    /* background-color: #555555; */
 }
 /* End Portfolio */
