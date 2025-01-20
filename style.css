@@ -379,7 +379,7 @@ padding-bottom: 30px;
 .container{
     width: auto;
     height: 500px;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
 
 }
@@ -414,4 +414,157 @@ padding-bottom: 30px;
     top: 80%;
     right: 43%;
 }
+
+.videos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.videos div{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    text-align: left;
+}
+
+.videos img{
+    width: 350px;
+    height: 200px;
+}
+
+.videos h5, p, h3,h4{
+    padding-left: 10px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
 /* End Blog */
+
+/* Start Contact Us */
+
+
+.contactUs{
+    width: auto;
+    height: 600px;
+}
+
+.contactUsHead{
+    width: auto;
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.contactUs h2{
+    color: #555555;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+}
+.contactUs h2::before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 70%;
+    left: 47%;
+}
+
+.contactUs h2::after{
+    content: "";
+    width: 220px;
+    height: 2px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 80%;
+    right: 43%;
+}
+
+.form{
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    margin: auto;   
+}
+.name, .email{ 
+    width: 290px;
+    height: 35px;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+.subject{
+    width: 600px;
+    height: 35px; 
+    margin-top: 20px; 
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.message{
+    width: 600px;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+.form button{
+    background-color: #ff305b;
+    border-color: #ff305b;
+    color: #ffffff;
+    padding: 0 20px;
+    margin: 0 20px;
+    height: 40px;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    
+}
+/* End Contact Us */
+
+/* Start footer */
+.footer{
+    width: auto;
+    height: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #333;
+    text-align: center;
+    
+    
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+}
+.media svg{
+    color: white;
+}
+
+.footer p{
+    color: white;
+}
+
+.footer span{
+    color:#ff305b;
+}
+/* End footer */
