@@ -13,7 +13,7 @@
     right: 0;
     left: 0;
     background-color: rgba(0, 0, 0,0.9);
-    color: #fff;
+    color: #ff305b  ;
 }
 ul{
     list-style: none;
@@ -140,7 +140,6 @@ ul{
 /* End Hello */
 
 /* Start Our services */
-
 .services{
     width: auto;
     height: 390px;
@@ -197,6 +196,8 @@ ul{
 .example svg{
     color: #ff305b;
     margin-bottom: 20px;
+    width: 70px;
+    height: 30px;
 }
 
 .example h3{
@@ -209,9 +210,10 @@ padding-bottom: 30px;
 
 .portfolio{
     width: auto;
-    height: 600px;
+    height: 900px;
     padding-top: 100px;
     padding-bottom: 55px;
+
 }
 
 .portfolio h2{
@@ -276,3 +278,140 @@ padding-bottom: 30px;
     /* background-color: #555555; */
 }
 /* End Portfolio */
+
+/* Start Performance */
+.performance{
+    background-color: #f1f1f1;
+    width: auto;
+    height: 250px;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.icons div{
+    width: 226px;
+    height: 95px;
+    /* background-color: #ff305b; */
+    text-align: center;
+    
+}
+.icons svg{
+    padding-bottom: 10px;
+    color: #ff305b;
+    width: 70px;
+    height: 30px;
+}
+.icons p{
+    padding-bottom: 3px;
+    height: 30px;
+}
+/* End Performance */
+
+
+/* Start Feedback */
+.feedback{
+    width: auto;
+    height: 500px;
+
+}
+
+.container{
+    width: auto;
+    height: 300px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.feedback h2{
+    color: #555555;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+}
+.feedback h2::before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 70%;
+    left: 47%;
+}
+
+.feedback h2::after{
+    content: "";
+    width: 220px;
+    height: 2px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 80%;
+    right: 43%;
+}
+
+.feedback img{
+    width: 700px;
+    padding-top: 30px;
+}
+
+/* End Feedback */
+
+/* Start Blog */
+.blog{
+    width: auto;
+    height: 600px;
+    background-color: #f1f1f1;
+
+}
+
+.container{
+    width: auto;
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.blog h2{
+    color: #555555;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+}
+.blog h2::before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 70%;
+    left: 47%;
+}
+
+.blog h2::after{
+    content: "";
+    width: 220px;
+    height: 2px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 80%;
+    right: 43%;
+}
+/* End Blog */
