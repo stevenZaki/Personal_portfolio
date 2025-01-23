@@ -1,18 +1,3 @@
-<!-- !!! Assignment !!
-🔗 Link: https://hassan-el-sobky.github.io/fokir/
-المطلوب
-🔴 هنعمل زي الموقع دا بالظبط.
-🔴 الأنيميشن اللي بيحصل في اول سكشن optional لكن عليه bonus 💯
-🔴 سكشن الـ portfolio هنعمله static كـ شكل بس , يعني مش مطلوب اننا لما نضغط علي graphic الـ cards تتغير.
-🔴 سكشن الـ Feedback مطلوب نعمله برضه كشكل يعني مش هنعمل 2 cards و نقلب بينهم لا card واحدة بس .
-
-شوية hints تساعدك ✨
-1️⃣ أول سكشن موجودة علي الصورة طبقة باللون الاسمر شفافه متنساش تعملها.
-2️⃣ عاوزك تعمل سيرش ازاى تضيف icon من font awesome.
-3️⃣  فيه خاصية جميلة اسمها resize بنستخدمها مع الـ textarea ممكن تـ search عنها.
-4️⃣ هنستخدم ifram مع فيديو اليوتيوب فى سيكشن Our Blog ونعمل سيرش عن aspect-ratio بس المرادى ك property موجوده فى ال css عشان نقدر نخلى السيكشن دا Responsive
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,21 +10,21 @@
 <body> 
     <!-- Start navbar  -->
     <div class="navBar">
-        <h2> Fokir </h2>
+        <h2><a href=""> Fokir </a> </h2>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Testimonial</li>
-            <li>Blog</li>
-            <li>Contact</li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Portofolio">Portfolio</a></li>
+            <li><a href="#Testimonial">Testimonial</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </div>
     <!-- End navbar  -->
 
     <!-- Start main page -->
-    <div class="header">
+    <div class="header" id="Home">
         <div class="overlay">
             <div class="info"> 
                 <h5 class="text-L">Hello i'm</h5>
@@ -51,8 +36,8 @@
     <!-- End main page -->
 
     <!-- Start Hello -->
-     <div class="Hello">
-        <div class="box">
+     <div class="Hello" id="About">
+        <div class="box" >
             <img src="./work-7.jpg" alt="">
         </div>
         <div class="content">
@@ -87,7 +72,7 @@
     <!-- End Hello -->
     
     <!-- Start Our services -->
-    <div class="services">
+    <div class="services" id="Services">
         <h2>Our Services</h2>
         <!-- <hr class="line"> -->
 
@@ -129,7 +114,7 @@
     <!-- End Our services -->
 
     <!-- Start Portfolio -->
-    <div class="portfolio">
+    <div class="portfolio" id="Portofolio">
         <h2>Our Portfolio</h2>
         <div class="hints">
             <p>Graphic</p>
@@ -152,7 +137,7 @@
     <!-- End Portfolio -->
 
     <!-- Start Performance -->
-    <div class="performance">
+    <div class="performance" id="Testimonial">
         <div class="icons">
             <div class="icon1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
@@ -188,7 +173,7 @@
     <!-- End Performance -->
 
     <!-- Start Feedback -->
-    <div class="feedback">
+    <div class="feedback" >
         <div class="container">
             <h2>Client's Feedback</h2>
             <img src="./Screenshot (9).png" alt="">
@@ -197,7 +182,7 @@
     <!-- End Feedback -->
 
     <!-- Start Blog -->
-     <div class="blog">
+     <div class="blog" id="Blog">
         <div class="container">
             <h2>Our Blog</h2>
             <div class="videos">
@@ -231,7 +216,7 @@
     <!-- End Blog -->
 
     <!-- Start Contact us -->
-     <div class="contactUs">
+     <div class="contactUs" id="Contact">
         <div class="contactUsHead"> 
             <h2>Contact Us</h2>
             <form class="form">
